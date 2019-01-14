@@ -52,7 +52,7 @@ public class Program {
 		System.out.println();
 		System.out.print("Enter month and year to calculate income (MM/YYYY): ");
 		String dateSearch = sc.next();
-
+		//breaking the string and converting to integer the year and month
 		int c_month = Integer.parseInt(dateSearch.substring(0, 2));
 		int c_year  = Integer.parseInt(dateSearch.substring(3));
 
